@@ -1,0 +1,75 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import ExternalScripts from '../components/ExternalScripts.astro';
+import BannerInner from '../components/Banner-inner.astro';
+import heroImage from '../images/banner-purpose.webp';
+import heroImagexs from '../images/banner-purposemob.webp';
+---
+
+<Layout title="DCM - Sugar">
+    <Header></Header>
+    <BannerInner Mainbanner={heroImage} bannerxs={heroImagexs}></BannerInner>
+    <div class="sec-breadcrumb">
+        <div class="container">
+            <ol class="breadcrumb mb-0">
+              <li class="breadcrumb-item"><a href="#"><i class="home-icon"></i>Home</a></li>
+              <li class="breadcrumb-item"><a href="#">Who We are</a></li>
+              <li class="breadcrumb-item active"><a href="#">Purpose</a></li>
+            </ol>
+        </div>
+    </div>
+        <div class="nav-fill-custom">
+            <div class="container">
+                <ul class="nav nav-pills nav-fill">
+                  <li class="nav-item">
+                    <a href="/purpose" class="nav-link active">Purpose</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="/history" class="nav-link">History</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="/values" class="nav-link">Values</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="/milestones" class="nav-link">Milestones</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="/leadership-team" class="nav-link">Leadership Team</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="/accolades" class="nav-link">Acculdaes</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="/gallery" class="nav-link">Gallery</a>
+                  </li>
+                </ul>
+            </div>
+        </div>
+        <div class="tab-content tab-content-custom">
+          <div class="tab-pane fade show active" id="pills-leaership">
+              <div class="container">
+                <h1 class="ft-start-sub-title about-title text-center">Purpose</h1>
+                <div class="row g-0 justify-content-center">
+                    <div class="col-md-10">
+                        <p class="tab-content-custom-text mb40 history-text history-text1 purpose-text">
+                            We believe that businesses, people and nations can truly prosper only when the Earth is also a stakeholder. <strong>Together, with growers and partners,</strong> we add sweetness to millions of lives and provide cleaner, greener fuel and power. We are committed to sustainability, safety, ethics and technology. With a strong culture of inclusive growth, we partner our growers at every stage. <strong>Improving livelihoods, transforming lives</strong>.
+                        </p>
+                    </div>
+                </div>
+              </div>
+              <div class="sec-green">
+                  <div class="container gimg-space">
+                      <img src="/green-img.webp" alt="" title="" class="img-fluid d-block mx-auto">
+                  </div>
+                  <div class="green-bg"></div>
+              </div>
+          </div>
+        </div>
+	<Footer></Footer>
+    <ExternalScripts></ExternalScripts>
+</Layout>
+
+
+

@@ -1,0 +1,20 @@
+---
+import { Image} from '@astrojs/image/components';
+const { Mainbanner, bannerxs } = Astro.props;
+---
+
+
+<section class="banner">
+    <div class="position-relative bannerInn banner-inner">
+        <Image src={Mainbanner} width={1920} height={401} alt="" class='img-fluid d-none d-lg-block' />
+        <Image src={bannerxs} width={750} height={550} alt="" class='img-fluid d-block d-lg-none' />
+    </div>
+    <ul class="list-unstyled mb-0 list-social list-social-inn">
+        <li>
+            <a href=""><i class="fb-con"></i></a>
+        </li>
+        <li>
+            <a href=""><i class="utube-con"></i></a>
+        </li>
+    </ul>
+</section>

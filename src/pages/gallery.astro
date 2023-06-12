@@ -1,0 +1,162 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import ExternalScripts from '../components/ExternalScripts.astro';
+
+---
+
+<Layout title="DCM - Sugar">
+    <Header></Header>
+	<section class="banner">
+		<div class="position-relative bannerInn banner-inner">
+			<img src="/banner-gallery.webp" alt="" title="" class="img-fluid d-none d-lg-block">
+			<img src="/banner-gallery-mob.webp" alt="" title="" class="img-fluid d-block d-lg-none">
+		</div>
+		<ul class="list-unstyled mb-0 list-social list-social-inn">
+			<li>
+				<a href=""><i class="fb-con"></i></a>
+			</li>
+			<li>
+				<a href=""><i class="utube-con"></i></a>
+			</li>
+		</ul>
+	</section>
+	<div class="sec-breadcrumb">
+		<div class="container">
+			<ol class="breadcrumb mb-0">
+			  <li class="breadcrumb-item"><a href="#"><i class="home-icon"></i>Home</a></li>
+			  <li class="breadcrumb-item"><a href="#">Who We are</a></li>
+			  <li class="breadcrumb-item active"><a href="#">Gallery</a></li>
+			</ol>
+		</div>
+	</div>
+		<div class="nav-fill-custom">
+			<div class="container">
+				<ul class="nav nav-pills nav-fill">
+				  <li class="nav-item">
+					<a href="/purpose" class="nav-link">Purpose</a>
+				  </li>
+				  <li class="nav-item">
+					<a href="/history" class="nav-link">History</a>
+				  </li>
+				  <li class="nav-item">
+					<a href="/values" class="nav-link">Values</a>
+				  </li>
+				  <li class="nav-item">
+					<a href="/milestones" class="nav-link">Milestones</a>
+				  </li>
+				  <li class="nav-item">
+					<a href="/leadership-team" class="nav-link">Leadership Team</a>
+				  </li>
+				  <li class="nav-item">
+					<a href="/accolades" class="nav-link">Acculdaes</a>
+				  </li>
+				  <li class="nav-item">
+					<a href="/gallery" class="nav-link active">Gallery</a>
+				  </li>
+				</ul>
+			</div>
+		</div>
+		<div class="tab-content tab-content-custom">
+		  <div class="tab-pane fade show active" id="pills-leaership">
+			  <div class="container">
+				<h1 class="about-title text-center tab-content-custom-title">Gallery</h1>
+			<article>
+				<h4 class="text-center carousel(heading)">Our Factory Images</h4>
+				<div class="owl-carousel carousel-v1" id="carousel-1" data-types="factory-img">
+					<div class="item position-relative">
+						<img src="/factory_img1.webp" alt="">
+						<div class="item-title">Distillery Boiler</div>
+					</div>
+					<div class="item position-relative">
+						<img src="/factory_img2.webp" alt="">
+						<div class="item-title">Distillery Distillation & <br> Evaporation Plant</div>
+					</div>
+					<div class="item position-relative">
+						<img src="/factory_img3.webp" alt="">
+						<div class="item-title">Distillery Distillation Plant</div>
+					</div>
+					<div class="item position-relative">
+						<img src="/factory_img4.webp" alt="">
+						<div class="item-title">Sugar_Evaporator</div>
+					</div>
+					<div class="item position-relative">
+						<img src="/factory_img1.webp" alt="">
+						<div class="item-title">Distillery Boiler</div>
+					</div>
+				</div>
+			</article>
+			<article class="mt-5">
+				<h4 class="text-center carousel(heading)">Our CSR Activities</h4>
+				<div class="owl-carousel carousel-v1" id="carousel-2">
+					<div class="item position-relative">
+						<img src="/csr-img-1.webp" alt="">
+						<div class="item-title">K. Paryavaran</div>
+					</div>
+					<div class="item position-relative">
+						<img src="/csr-img-2.webp" alt="">
+						<div class="item-title">K. Rozgaar</div>
+					</div>
+					<div class="item position-relative">
+						<img src="/csr-img-3.webp" alt="">
+						<div class="item-title">K. Sehat</div>
+					</div>
+					<div class="item position-relative">
+						<img src="/csr-img-4.webp" alt="">
+						<div class="item-title">K. Shiksha</div>
+					</div>
+					<div class="item position-relative">
+						<img src="/csr-img-1.webp" alt="">
+						<div class="item-title">K. Paryavaran</div>
+					</div>
+				</div>
+			</article>
+			<article class="mt-5">
+				<h4 class="text-center carousel(heading)">Our Awards</h4>
+				<div class="owl-carousel carousel-v1" id="carousel-3">
+					<div class="item position-relative">
+						<img src="/award-img1.webp" alt="">
+						<div class="item-title">FICCI Sustainable Agriculture <br> Awards 18 Nov, 2021</div>
+					</div>
+					<div class="item position-relative">
+						<img src="/award-img2.webp" alt="">
+						<div class="item-title">Award at NSI</div>
+					</div>
+					<div class="item position-relative">
+						<img src="/award-img3.webp" alt="">
+						<div class="item-title">STAI event - 80th Annual <br> Convention</div>
+					</div>
+					<div class="item position-relative">
+						<img src="/award-img4.webp" alt="">
+						<div class="item-title">CII National Award</div>
+					</div>
+					<div class="item position-relative">
+						<img src="/award-img1.webp" alt="">
+						<div class="item-title">FICCI Sustainable Agriculture <br> Awards 18 Nov, 2021</div>
+					</div>
+				</div>
+			</article>
+			<article class="mt-5 mb-5 pb-5">
+				<h4 class="text-center carousel(heading)">Our Biodiversity</h4>
+				<div class="owl-carousel carousel-v1" id="carousel-4">
+					<div class="item position-relative">
+						<img src="/biodiversity-img-1.webp" alt="">
+						<div class="item-title">Hariawan Biodiversity</div>
+					</div>
+					<div class="item position-relative">
+						<img src="/biodiversity-img-2.webp" alt="">
+						<div class="item-title">Loni Biodiversity</div>
+					</div>
+				</div>
+			</article>
+
+			  </div>
+		  </div>
+		</div>
+	<Footer></Footer>
+  <ExternalScripts></ExternalScripts>
+</Layout>
+
+
+

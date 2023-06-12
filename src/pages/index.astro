@@ -1,0 +1,276 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+import Banner from '../components/Banner.astro';
+import Footer from '../components/Footer.astro';
+import ExternalScripts from '../components/ExternalScripts.astro';
+
+---
+
+<Layout title="DCM - Sugar">
+	<Header></Header>
+	<Banner></Banner>
+	
+	<section class="sec-1">
+		<div class="container">
+			<div class="text-center">
+				<p class="main-desc">
+					India's leading integrated sugar company, we are championing the <br> circular, sustainable, inclusive way to growth.
+				</p>
+				<a href="#" class="btn btn-primary rounded-0">Know More</a>
+			</div>
+		</div>
+	</section>
+	<section class="sec-2">
+		<div class="container-left">
+			<div class="d-flex align-items-start flex-column flex-lg-row">
+				<div class="nav flex-lg-column nav-pills tab-left" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+					<h1 class="tab-left-title">Our <span>Businesses</span></h1>
+					<a href="javascript:void(0)" class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" aria-controls="v-pills-home" aria-selected="true">
+						<i class="sugar-tab-icon"></i>Sugar
+					</a>
+					<a href="javascript:void(0)" class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" aria-controls="v-pills-profile" aria-selected="false">
+					<i class="power-tab-icon"></i> Power
+					</a>
+					<a href="javascript:void(0)" class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" aria-controls="v-pills-messages" aria-selected="false">
+					<i class="fuel-tab-icon"></i> Biofuels
+				</a>
+				</div>
+				<div class="tab-content" id="v-pills-tabContent">
+					<div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+						<div class="tab-right d-flex">
+							<div class="tab-right-first">
+								<h1 class="tab-right-first-title">
+									Setting benchmarks. <br> Catalysing change.
+								</h1>
+								<p class="tab-right-first-desc">
+									Situated in the heart of India’s sugarcane farming districts, partnering with over 2,25,000 growers, we produce about 650 million kilograms of sugar annually. Across 4 state-of-the-art, fully integrated sugar manufacturing units in Hardoi & Lakshimpur Kheri districts of Uttar Pradesh. Making us one of India’s leading sugar producers.
+								</p>
+								<a href="#" class="btn btn-primary rounded-0">Read More</a>
+							</div>
+							<div class="tab-right-second">
+								<img src="/sugar-img.webp" alt="" title="" class="img-fluid d-none d-lg-block" width="451" height="592">
+								<img src="/sugar-img-mob.webp" alt="" title="" class="img-fluid d-block d-lg-none" width="650" height="388">
+							</div>
+						</div>
+					</div>
+					<div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+						<div class="tab-right d-flex">
+							<div class="tab-right-first">
+								<h1 class="tab-right-first-title">
+									Maximising Green Power<br> through efficient technology
+								</h1>
+								<p class="tab-right-first-desc">
+									In a world where every resource often comes at a cost to the environment, we are creating captive energy sources and contributing to a more circular economy.
+								</p>
+								<a href="#" class="btn btn-primary rounded-0">Read More</a>
+							</div>
+							<div class="tab-right-second">
+								<img src="/power-img.webp" width="451" height="592" alt="" title="" class="img-fluid d-none d-lg-block">
+								<img src="/power-img-mob.webp" width="650" height="388" alt="" title="" class="img-fluid d-block d-lg-none">
+							</div>
+						</div>
+					</div>
+					<div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+						<div class="tab-right d-flex">
+							<div class="tab-right-first">
+								<h1 class="tab-right-first-title">
+									Making fuel greener. <br> Making a greener world.
+								</h1>
+								<p class="tab-right-first-desc">
+									At DCM Shriram , we use sugar by-products to manufacture Ethanol. This type of alcohol is a green fuel that can be blended with petroleum to lessen its impact on the environment. Helping to not only make a greener world but to also increase energy security for the nation by reducing dependence on crude oil imports.
+								</p>
+								<a href="#" class="btn btn-primary rounded-0">Read More</a>
+							</div>
+							<div class="tab-right-second">
+								<img src="/petrol-img.webp" width="451" height="592" alt="" title="" class="img-fluid d-none d-lg-block">
+								<img src="/petrol-img-mob.webp" width="650" height="388" alt="" title="" class="img-fluid d-block d-lg-none">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="sec-carousel">
+		<div class="container-fluid">
+			<div class="carousel-inn">
+				<div class="row g-0">
+					<div class="col-lg-4 col-xxl-4 col-xxl-custom d-flex justify-content-lg-end">
+						<div class="item-first">
+							Learn More<span class="d-block">About</span>
+						</div>
+					</div>
+					<div class="col-lg-8 col-xxl-8">
+						<div class="owl-carousel" id="carousel-learn">
+								<div class="item">
+									<div class="item-img position-relative">
+										<img src="/cr-1.webp" width="930" height="484" alt="" title="" class="img-fluid">
+										<div class="item-img-caption">
+											<div class="item-img-caption-title">
+												Commitment to<br> Society <a href="javascript:void(0)" class="next-arr"></a>
+											</div>
+											<p class="item-img-caption-desc">
+												Working in harmony to promote wellbeing and prosperity. With a tradition of service to the community put in place by our Founder, DCM Shriram has been at the forefront ...
+											</p>
+										</div>
+									</div>
+								</div>
+								<div class="item">
+									<div class="item-img position-relative">
+										<img src="/cr-2.webp" width="930" height="484" alt="" title="" class="img-fluid">
+										<div class="item-img-caption">
+											<div class="item-img-caption-title">
+												Sustainability <br>in Business <a href="javascript:void(0)" class="next-arr"></a>
+											</div>
+											<p class="item-img-caption-desc">
+												Working in harmony to promote wellbeing and prosperity. With a tradition of service to the community put in place by our Founder, DCM Shriram has been at the forefront ...
+											</p>
+										</div>
+									</div>
+								</div>
+								<div class="item">
+									<div class="item-img position-relative">
+										<img src="/cr-1.webp" width="930" height="484" alt="" title="" class="img-fluid">
+										<div class="item-img-caption">
+											<div class="item-img-caption-title">
+												Comitment to<br> Society <a href="javascript:void(0)" class="next-arr"></a>
+											</div>
+											<p class="item-img-caption-desc">
+												Working in harmony to promote wellbeing and prosperity. With a tradition of service to the community put in place by our Founder, DCM Shriram has been at the forefront ...
+											</p>
+										</div>
+									</div>
+								</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</section>
+	<section class="sec-news">
+		<div class="container">
+			<div class="row no-gutters">
+				<div class="col-lg col-left">
+					<div class="card border-0 rounded-0">
+						<img src="/news-img.webp" width="470" height="360" alt="" title="" class="d-none d-lg-block">
+						<img src="/news-img-mob.webp" width="682" height="360" alt="" title="" class="d-block d-lg-none img-fluid">
+						<div class="card-body card-body-bg card-body-news">
+							<h5 class="card-title d-flex">Careers 
+								<a href="javascript:void(0)" class="ms-auto">
+									<img src="/crd-arrow.webp" width="36" height="21" alt="" title="">
+								</a>
+							</h5>
+							<p class="card-text">
+								A career at DCM Shriram  is more than just a job. 
+								It’s a sense of deep purpose. It’s the comfort of working in an...
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg col-news-list">
+					<div class="list-group list-group-flush list-group-custom">
+						<h3 class="d-flex list-group-title">
+							Latest News
+							<a href="#" class="ms-auto mt-auto"><span>Read All</span></a>
+						</h3>
+						<a href="#" class="list-group-item d-flex justify-content-between align-items-center">
+							<div>
+								<h5 class="list-group-custom-title">DCM Shriram Ltd extends 100 Oxygen Concentrators to district administration</h5>
+								<p class="list-group-custom-desc">Nafa Nuksan, <span>05/10/2021</span></p>
+							</div>
+							<img src="/pdf-icon.webp" width="39" height="50" alt="" title="">
+						</a>
+						<a href="#" class="list-group-item d-flex justify-content-between align-items-center">
+							<div>
+								<h5 class="list-group-custom-title">DCM Shriram extends 100 Oxygen Concentrators to administration</h5>
+								<p class="list-group-custom-desc">Kota Bureau, <span>05/10/2021</span></p>
+							</div>
+							<img src="/pdf-icon.webp" width="39" height="50" alt="" title="">
+						</a>
+						<a href="#" class="list-group-item d-flex justify-content-between align-items-center">
+							<div>
+								<h5 class="list-group-custom-title">DCM Shriram gives 100 Oxygen concentrators</h5>
+								<p class="list-group-custom-desc">Dainik Bhaskar, <span>05/10/2021</span></p>
+							</div>
+							<img src="/pdf-icon.webp" width="39" height="50" alt="" title="">
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="sec-video">
+		<div class="container">
+			<div class="row no-gutters">
+				<div class="col-lg col-left d-flex flex-column">
+					<div class="video-title">Videos</div>
+					<div class="mt-auto ms-auto d-arrow">
+						<button class="slick-prev slick-arrow arrow-left"></button>
+						<button class="slick-next slick-arrow arrow-right"></button>
+					</div>
+				</div>
+				<div class="col-lg">
+					<div class="slider-container">
+						<div class="slider" id="slider">
+							<div class="slide active">
+								<img src="/sl-1.webp" width="683" height="384" alt="" title="" class="img-fluid">
+								<a href="javascript:void(0)" class="play-icon" data-bs-toggle="modal" data-bs-target="#myModal1">
+									<img src="/video-icon.webp" alt="" title="" class="img-fluid">
+								</a>
+							</div>
+							<div class="slide next-1">
+								<img src="/sl-2.webp" width="683" height="384" alt="" title="" class="img-fluid">
+								<a href="javascript:void(0)" class="play-icon" data-bs-toggle="modal" data-bs-target="#myModal2">
+									<img src="/video-icon.webp" alt="" title="" class="img-fluid">
+								</a>
+							</div>
+							<div class="slide next-2">
+								<img src="/sl-3.webp" width="683" height="384" alt="" title="" class="img-fluid">
+								<a href="javascript:void(0)" class="play-icon" data-bs-toggle="modal" data-bs-target="#myModal3">
+									<img src="/video-icon.webp" alt="" title="" class="img-fluid">
+								</a>
+							</div>
+							<div class="slide">
+								 <img src="/sl-1.webp" width="683" height="384" alt="" title="" class="img-fluid">
+								 <a href="javascript:void(0)" class="play-icon" data-bs-toggle="modal" data-bs-target="#myModal1">
+									 <img src="/video-icon.webp" alt="" title="" class="img-fluid">
+								 </a>
+							</div>
+						</div>
+					</div>
+
+					<div class="carousel-mobile d-block d-lg-none">
+						<div class="owl-carousel" id="carousel-vid">
+							<div class="item">
+								<img src="/sl-1.webp" width="683" height="384" alt="" title="" class="img-fluid">
+								<a href="javascript:void(0)" class="play-icon" data-bs-toggle="modal" data-bs-target="#myModal1">
+									<img src="/video-icon.webp" width="116" height="116" alt="" title="" class="img-fluid">
+								</a>
+							</div>
+							<div class="item">
+								<img src="/sl-2.webp" width="683" height="384" alt="" title="" class="img-fluid">
+								<a href="javascript:void(0)" class="play-icon" data-bs-toggle="modal" data-bs-target="#myModal2">
+									<img src="/video-icon.webp" width="116" height="116" alt="" title="" class="img-fluid">
+								</a>
+							</div>
+							<div class="item">
+								<img src="/sl-3.webp" width="683" height="384" alt="" title="" class="img-fluid">
+								<a href="javascript:void(0)" class="play-icon" data-bs-toggle="modal" data-bs-target="#myModal3">
+									<img src="/video-icon.webp" width="116" height="116" alt="" title="" class="img-fluid">
+								</a>
+							</div>
+						</div>
+					</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<Footer></Footer>
+	<ExternalScripts></ExternalScripts>
+
+</Layout>
+

@@ -1,0 +1,119 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import ExternalScripts from '../components/ExternalScripts.astro';
+
+---
+
+<Layout title="DCM - Sugar">
+    <Header></Header>
+    <section class="banner">
+        <div class="position-relative bannerInn banner-inner">
+            <div class="ratio ratio-21x9 banner-map">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3504.6385901173944!2d77.11917761425735!3d28.550580894537887!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd317c5e08f3%3A0x3b5b1172b397abe4!2sDCM%20Shriram%20Ltd.!5e0!3m2!1sen!2sin!4v1636622731613!5m2!1sen!2sin" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+        <ul class="list-unstyled mb-0 list-social list-social-inn">
+            <li>
+                <a href=""><i class="fb-con"></i></a>
+            </li>
+            <li>
+                <a href=""><i class="utube-con"></i></a>
+            </li>
+        </ul>
+    </section>
+    <div class="sec-breadcrumb">
+        <div class="container">
+            <ol class="breadcrumb mb-0">
+              <li class="breadcrumb-item"><a href="#"><i class="home-icon"></i>Home</a></li>
+              <!-- <li class="breadcrumb-item"><a href="#">Our Businesses</a></li> -->
+              <li class="breadcrumb-item active"><a href="#">Contact Us</a></li>
+            </ol>
+        </div>
+    </div>
+    <div class="container">
+        <div class="contact-left">
+            <h1 class="about-title contact-title">Contact us</h1>
+            <div class="row justify-content-between">
+                <div class="col-md-5">
+                    <div class="contact-sub-title">Registered and Corporate Office</div>
+                    <div class="contact-left-list">
+                        <ul class="list-unstyled mb-0">
+                            <li>
+                                Address:<br>
+                                <span class="org-title">DCM Shriram Ltd.</span><br>
+                                2nd Floor (West Wing) World Mark 1 Aerocity<br>
+                                Delhi - 110037 India
+                            </li>
+                            <li>
+                                Telephone No:<br>
+                                +91 11 42100200, +91 11 42100200
+                            </li>
+                            <li>
+                                Fax:<br> 
+                                +91 11 43561694
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="row row-data">
+                      <label for="colFormLabel" class="col-sm-4 col-form-label">Contact us for</label>
+                      <div class="col-sm-8">
+                        <select class="form-control">
+                            <option>Careers/HR</option>
+                            <option>Careers/HR</option>
+                            <option>Careers/HR</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="dynamic-data">
+                        Mr Sushil Baveja
+                        <span>sushilbaveja@dcmshriram.com</span>
+                    </div>
+                </div>
+                <div class="col-md-6 contact-right">
+                    <div class="contact-sub-title">Have Questions?</div>
+                    <div class="row mb-40">
+                        <div class="col-md-6 mb-3 mb-md-0 form-material">
+                            <input type="text" class="form-control">
+                            <label>Name</label>
+                        </div>
+                        <div class="col-md-6 form-material">
+                            <input type="text" class="form-control" placeholder="">
+                            <label>Surame</label>
+                        </div>
+                    </div>
+                    <div class="mb-40 form-material">
+                        <input type="text" class="form-control">
+                        <label>Email</label>
+                    </div>
+                    <div class="row mb-40">
+                        <div class="col-md-6 mb-3 mb-md-0 form-material">
+                            <input type="text" class="form-control" placeholder="">
+                            <label>Phone Number</label>
+                        </div>
+                        <div class="col-md-6">
+                            <select class="form-control">
+                                <option>Subject</option>
+                                <option>Subject</option>
+                                <option>Subject</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="mb-40 form-material">
+                        <textarea class="form-control" rows="4" placeholder="Description"></textarea>
+                        <label></label>
+                    </div>
+                    <div>
+                        <button type="button" class="btn btn-primary btn-submit rounded-0">Submit</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+	<Footer></Footer>
+    <ExternalScripts></ExternalScripts>
+</Layout>
+
+
+

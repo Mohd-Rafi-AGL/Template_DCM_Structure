@@ -1,0 +1,169 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import ExternalScripts from '../components/ExternalScripts.astro';
+import BannerInner from '../components/Banner-inner.astro';
+import heroImage from '../images/banner-about.webp';
+import heroImagexs from '../images/banner-about-mob.webp';
+
+---
+
+<Layout title="DCM - Sugar">
+    <Header></Header>
+    <BannerInner Mainbanner={heroImage} bannerxs={heroImagexs}></BannerInner>
+    <div class="sec-breadcrumb">
+        <div class="container">
+            <ol class="breadcrumb mb-0">
+              <li class="breadcrumb-item"><a href="#"><i class="home-icon"></i>Home</a></li>
+              <li class="breadcrumb-item active"><a href="#">About us</a></li>
+            </ol>
+        </div>
+    </div>
+    <section class="about-1">
+        <div class="container">
+            <h1 class="text-center about-title">About US</h1>
+            <p class="about-text">
+                We are India’s leading integrated sugar producer focused on creating a green and sustainable sugar industry. Today, <strong>we have transitioned beyond sugar into a major bio-energy producer with Green Power and Ethanol</strong>. At DCM Shriram Ltd. Sugar & Distillery we are contributing to a circular economy with an expanded portfolio along the entire value-added chain. 
+            </p>
+        </div>
+        <div class="sec-process">
+            <h1 class="text-center process-main-title">Sugarcane</h1>	
+            <ul class="list-unstyled d-flex list-process justify-content-center mb-0">
+                <li>
+                    <span class="pro-circle d-flex align-items-center justify-content-center">
+                        <img src="/process-sugar.webp" alt="" title="" class="img-fluid">
+                    </span>
+                    <span class="process-title">Sugar</span>
+                    <i class="hr-arr"></i>
+                </li>
+                <li>
+                    <span class="pro-circle pro-circle2 d-flex align-items-center justify-content-center">
+                        <img src="/process-ethanol.webp" alt="" title="" class="img-fluid">
+                    </span>
+                    <span class="process-title">Ethanol</span>
+                    <i class="hr-arr"></i>
+                </li>
+                <li>
+                    <span class="pro-circle pro-circle6 d-flex align-items-center justify-content-center">
+                        <img src="/process-power.webp" alt="" title="" class="img-fluid">
+                    </span>
+                    <span class="process-title">Power</span>
+                    <i class="hr-arr"></i>
+                </li>
+                <li>
+                    <span class="pro-circle pro-circle3 d-flex align-items-center justify-content-center">
+                        <img src="/process-molasses.webp" alt="" title="" class="img-fluid">
+                    </span>
+                    <span class="process-title">Molasses</span>
+                    <i class="hr-arr"></i>
+                </li>
+                <li>
+                    <span class="pro-circle d-flex align-items-center justify-content-center">
+                        <img src="/process-basses.webp" alt="" title="" class="img-fluid">
+                    </span>
+                    <span class="process-title">Bagasse</span>
+                    <i class="hr-arr"></i>
+                </li>
+                <li>
+                    <span class="pro-circle d-flex align-items-center justify-content-center">
+                        <img src="/process-press.webp" alt="" title="" class="img-fluid">
+                    </span>
+                    <span class="process-title">Press Mud</span>
+                    <i class="hr-arr"></i>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section class="about-2">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-6 align-self-center">
+                    <h1 class="about-title">We are a part of DCM Shriram Ltd.</h1>
+                    <p class="about-text">
+                        A conglomerate with a group turnover of Rs. 8,308 crores with business interests in: Chloro-Vinyl, Agri-Rural and Value Added business. 
+                    </p>
+                    <p class="about-text">
+                        At DCM Shriram Ltd. Sugar & Distillery we produce over 650 million kilograms of sugar a year. And over 140 Million Liters of Ethanol Annually. Energizing the nation’s quest for greener fuel. We also produce clean power through Bagasse, contributing to the National Grid.
+                    </p>
+                </div>
+                <div class="col-md-5 mb-4 mb-md-0 supplier-block supplier-block-mob">
+                    <img src="/sugar-product.webp" alt="" title="" class="img-fluid">
+                </div>
+            </div>
+    
+        </div>
+    </section>
+    <section class="sec-info">
+        <div class="container">
+            <div class="info-circle d-none mb-md-3 mb-lg-0">
+                <div class="position-relative">
+                    <img src="/info-circle.webp" alt="" title="" class="img-fluid d-none d-lg-none">
+                    <img src="/info-circle-mob.webp" alt="" title="" class="img-fluid d-block mx-width">
+                    <div class="info-content">
+                        <div class="info-content-img">
+                            <img src="/kisan-img.webp" alt="" title="" class="img-fluid mx-auto d-block">
+                        </div>
+                        <span class="info-title d-block text-center">Growers</span>
+                        <span class="info-title d-block text-center">2,50,000</span>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex mobile-scroll">
+                <ul class="list-unstyled list-info text-lg-end list-info-left">
+                    <li>
+                        <span class="d-block list-info-title">Crushing Capacity</span>
+                        <span class="list-info-text">41000 TCD</span>
+                    </li>
+                    <li class="list-info-left2">
+                        <span class="d-block list-info-title">Sugarcane Crush</span>
+                        <span class="list-info-text">60 Lac Tonnes</span>
+                    </li>
+                    <li class="list-info-left3">
+                        <span class="d-block list-info-title">Manufacturing Locations <br> <span class="list-info-title-md">(Sulphitation & Refined)</span></span> 
+                        <span class="list-info-text">Ajbapur - Dist. Lakhimpur Kheri (U.P.) <br> Hariawan , Loni & Rupapur  - Dist. Hardoi (U.P.)</span>
+                    </li>
+                    <li class="list-info-left4">
+                        <span class="d-block list-info-title">Sugar Production</span>  
+                        <span class="list-info-text">6.5 Lacs Tonnes</span>
+                    </li>
+                </ul>
+                <div class="info-circle">
+                    <div class="position-relative">
+                        <img src="/info-circle.webp" alt="" title="" class="img-fluid d-block">
+                        <div class="info-content">
+                            <div class="info-content-img">
+                                <img src="images/kisan-img.webp" alt="" title="" class="img-fluid mx-auto d-block">
+                            </div>
+                            <span class="info-title d-block text-center">Growers</span>
+                            <span class="info-title d-block text-center">2,50,000</span>
+                        </div>
+                    </div>
+                </div>
+                <ul class="list-unstyled list-info text-start list-info-end">
+                    <li>
+                        <span class="d-block list-info-title">Distillery Capacity</span>
+                        <span class="list-info-text">470 KLD</span>
+                    </li>
+                    <li class="list-info-end2">
+                        <span class="d-block list-info-title">Ethanol Facilities</span>
+                        <span class="list-info-text">Ajbapur- Dist. Lakhimpur Kheri (U.P.) <br> Hariawan - Dist. Hardoi (U.P.)</span>
+                    </li>
+                    <li class="list-info-end3">
+                        <span class="d-block list-info-title">Ethanol Production Capacity</span> 
+                        <span class="list-info-text">18 Cr Liters</span>
+                    </li>
+                    <li class="list-info-end4">
+                        <span class="d-block list-info-title">Co-Generation Power</span>  
+                        <span class="list-info-text">166 MW</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+	<Footer></Footer>
+    <ExternalScripts></ExternalScripts>
+</Layout>
+
+
+
